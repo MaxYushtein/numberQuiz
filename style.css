@@ -1,0 +1,44 @@
+body{
+background-image: url("bg.jpg");
+font-family: 'Poppins', sans-serif;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover
+}
+html{
+    min-height: 100%;
+}
+form{
+    border: 5px solid white;
+    width: 500px;
+    margin :auto;
+    text-align: center;
+    margin-top: 200px;
+}
+button{
+    border-radius: 34px;
+    box-shadow: 0 0 100px orangered;
+    border: none;
+    height: 40px;
+    background-color: white;
+    padding-left:29px ;
+    padding-right:29px ;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input{
+    border-radius: 56px;
+    border: none;
+height: 40px;
+padding-left: 29px;
+padding-right: 29px;
+outline: none;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.233);
+display: block;
+text-align: center;
+margin: auto;
+margin-bottom: 20px;
+}
+
